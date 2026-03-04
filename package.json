@@ -1,12 +1,29 @@
 {
     "name": "nepal-map-component",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.0.0",
+    "private": false,
+    "description": "Highly customizable, reusable Nepal administrative map component for react",
     "type": "module",
-    "main": "./src/index.ts",
-    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "sideEffects": false,
     "scripts": {
-        "typecheck": "tsc --noEmit"
+        "build": "rm -rf dist && tsc -p tsconfig.build.json",
+        "typecheck": "tsc --noEmit",
+        "prepublishOnly": "npm run build && npm run typecheck"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "dependencies": {
         "d3-geo": "^3.1.1",
