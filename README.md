@@ -33,7 +33,13 @@ This README is a complete usage guide for integrating and customizing the compon
 
 ## Installation
 
-Inside this repository:
+Install from npm:
+
+```bash
+npm i nepal-map-component
+```
+
+For local development inside this repository:
 
 ```bash
 cd nepal-map-component
