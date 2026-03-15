@@ -11,6 +11,8 @@
 
 This README is a complete usage guide for integrating and customizing the component.
 
+[See worked out examples, configure and try out the component, generate code for your app based on your configuration in the playground.](https://bidwat.github.io/nepal-map-component-playground/)
+
 <p align="center">
   <img src="./nepal.png" alt="Nepal Map Component preview" />
 </p>
