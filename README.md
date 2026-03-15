@@ -11,6 +11,10 @@
 
 This README is a complete usage guide for integrating and customizing the component.
 
+<p align="center">
+  <img src="./nepal.png" alt="Nepal Map Component preview" />
+</p>
+
 ---
 
 ## Table of Contents
